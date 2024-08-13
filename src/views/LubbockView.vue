@@ -39,7 +39,6 @@ const activeMonth = computed(() => {
 
 });
 
-// Updated filterHour to ensure we're comparing numbers
 const filterMonth = computed(() => ['==', ['number', ['get', 'Month']], parseInt(month.value)]);
 
 

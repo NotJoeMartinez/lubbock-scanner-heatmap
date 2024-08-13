@@ -59,7 +59,7 @@ onMounted(() => {
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v11',
     center: [-101.87903461669559, 33.57145075313548],
-    zoom: 11 // Zoom out a bit to show more of Texas
+    zoom: 11 
   });
 
   map.value.on('load', () => {
