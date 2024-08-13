@@ -30,3 +30,6 @@ a valid url with your data in the the following geojson format.
   ]
 }
 ```
+
+### MapBox
+Replace `get_your_own_access_token` with your [MapBox](https://www.mapbox.com/) API token
