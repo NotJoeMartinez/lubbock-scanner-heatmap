@@ -8,7 +8,7 @@ data from https://copcrawler.com
 You need to replace the url `http://example.com/crime_map_data.geojson` with 
 a valid url with your data in the the following geojson format.
 
-```geojson
+```json
 {
   "type": "FeatureCollection",
   "features": [
